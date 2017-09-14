@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Circe-Bold;
+    src: url("./font/circebold.ttf") format("ttf");
+    src: url("./font/Circe-Bold.otf") format("otf");
+    src: url("./font/circe-bold.woff") format("woff");
+    src: url("./font/circe-bold.woff2") format("woff2");
+}
+.style-body{
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.content{
+   width : 750px;
+    margin: 0 auto;
+    padding: 0;
+}
+.style-header{
+    height: 453px;
+}
+#label{
+    float: left;
+    margin-left: 104px;
+    margin-top: 291px;
+}
+.name-company{
+    font:bold 60px Circe-Bold;
+    width: 418px;
+    float: right;
+    margin-right: 103px;
+    margin-top: 305px;
+    padding: 0;
+}
+.name2{
+    color: #F3C709;
+}
+.name1{
+    color: #364E66;
+}
+.slogan{
+    font:bold 40px Circe;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    padding: 0;
+}
+.user input{
+    background-color: #f2f2f2;
+    width: 650px;
+    height: 110px;
+    border: 0;
+    margin: 0 auto 40px auto;
+    border-radius: 5px;
+    font-family: Circe;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.number input{
+    background-color: #f2f2f2;
+    width: 650px;
+    height: 110px;
+    border: 0;
+    margin: 0 auto 423px auto;
+    border-radius: 5px;
+    font-family: Circe;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.bottom_button input{
+    background-color: #fccb2e;
+    margin: 0 auto;
+    width: 750px;
+    height: 110px;
+    border: 0;
+    border-radius: 3px;
+    font-family: Circe;
+    font-size: 36px;
+    font-weight: 400;
+}
+.user, .number, .bottom_button{
+    text-align: center;
+}
